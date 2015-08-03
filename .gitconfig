@@ -1,0 +1,7 @@
+[user]
+	email = ddsnowboard@gmail.com
+	name = Will Koster\n
+[push]
+	default = simple
+[core]
+	editor = vim
