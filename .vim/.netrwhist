@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/laptop/Programming/focalcast-chromecast/js'
+let g:netrw_dirhist_2='/home/laptop/Programming/jquery/src/effects'
