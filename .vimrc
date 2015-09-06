@@ -19,8 +19,8 @@ runtime! debian.vim
 if has("syntax")
   syntax on
 endif
-colorscheme distinguished
 set t_Co=256 
+colorscheme distinguished
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
