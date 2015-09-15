@@ -19,6 +19,8 @@ runtime! debian.vim
 if has("syntax")
   syntax on
 endif
+
+" Color stuff
 set t_Co=256 
 colorscheme distinguished
 
@@ -56,6 +58,6 @@ set mouse=a		" Enable mouse usage (all modes)
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 set autowrite
 " \= reformats the whole file
-map <Leader>= mzgg=G`z
+nnoremap <Leader>= mzgg=G`z
 
 execute pathogen#infect()
