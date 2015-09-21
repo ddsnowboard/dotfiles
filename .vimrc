@@ -60,4 +60,5 @@ set autowrite
 " \= reformats the whole file
 nnoremap <Leader>= mzgg=G`z
 
+set wildignore=*.class
 execute pathogen#infect()
