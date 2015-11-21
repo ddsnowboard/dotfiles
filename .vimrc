@@ -69,3 +69,7 @@ set lazyredraw " this speeds up macros by not redrawing while we're doinng them
 " Sometimes, lines are long. This makes movement work right. 
 nnoremap j gj
 nnoremap k gk
+
+" This lets me leave editing mode by pressing jk. If I actually need to write
+" jk, I can just wait for the timer to run out. 
+inoremap jk <ESC>
