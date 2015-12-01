@@ -5,3 +5,5 @@
 	editor = vim
 [push]
 	default = simple
+[merge]
+	conflictstyle = diff3
