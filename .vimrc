@@ -64,7 +64,7 @@ set wildignore=*.class
 execute pathogen#infect()
 
 
-set lazyredraw " this speeds up macros by not redrawing while we're doinng them
+set lazyredraw " this speeds up macros by not redrawing while we're doing them
 
 " Sometimes, lines are long. This makes movement work right. 
 nnoremap j gj
