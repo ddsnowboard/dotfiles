@@ -32,6 +32,7 @@ colorscheme distinguished
 " reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+  au BufReadPost *.rkt,*.rktl set filetype=scheme
 endif
 
 " Uncomment the following to have Vim load indentation rules and plugins
