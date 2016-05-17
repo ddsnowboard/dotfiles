@@ -68,8 +68,13 @@ execute pathogen#infect()
 set lazyredraw " this speeds up macros by not redrawing while we're doing them
 
 " Sometimes, lines are long. This makes movement work right. 
-nnoremap j gj
-nnoremap k gk
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
+" This makes it show me line numbers relative to the one I'm at so I can 
+" actually use the multiplier settings (eg, 5j)
+set number
+set relativenumber
 
 " This lets me leave editing mode by pressing jk. If I actually need to write
 " jk, I can just wait for the timer to run out. 
