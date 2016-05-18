@@ -67,7 +67,8 @@ execute pathogen#infect()
 
 set lazyredraw " this speeds up macros by not redrawing while we're doing them
 
-" Sometimes, lines are long. This makes movement work right. 
+" Sometimes, lines are long. This makes movement work right, while also
+" allowing for the fancy number modifiers to keep working right. 
 noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
 noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 
