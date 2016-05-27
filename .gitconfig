@@ -3,5 +3,6 @@
 	email = ddsnowboard@gmail.com
 [core]
 	editor = vim
+	excludesfile = /home/ddsnowboard/dotfiles/global_ignore
 [push]
 	default = simple
