@@ -4,3 +4,6 @@
 [submodule "editorconfig-vim"]
     path = .vim/bundle/editorconfig-vim
     url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule ".vim/bundle/vim-polyglot"]
+	path = .vim/bundle/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
