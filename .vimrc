@@ -24,7 +24,7 @@ endif
 set t_Co=256 
 colorscheme distinguished
 " This makes vim transparent like the rest of the terminal
-hi Normal ctermbg=none
+" hi Normal ctermbg=none
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
