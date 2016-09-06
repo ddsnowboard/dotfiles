@@ -89,3 +89,6 @@ export DB_PORT="5432"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 export HEROKU_SSL_VERIFY=disable
+
+# This is for CS125. It lets me run junit tests faster
+alias junit="java -cp .:junit.jar junit.textui.TestRunner"
