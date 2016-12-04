@@ -6,3 +6,5 @@
 	excludesfile = /home/ddsnowboard/dotfiles/global_ignore
 [push]
 	default = simple
+[merge]
+	defaultToUpstream = 1
