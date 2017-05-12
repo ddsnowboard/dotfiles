@@ -97,4 +97,6 @@ export SVN_EDITOR="vim"
 # This is for CS125. It lets me run junit tests faster
 alias junit="java -cp .:junit.jar junit.textui.TestRunner"
 
-source ~/.localzshrc
+if [[ -f ~/.localzshrc ]] then 
+    source ~/.localzshrc
+fi
