@@ -34,6 +34,7 @@ colorscheme distinguished
 " reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+  " Teach vim what racket files are
   au BufReadPost *.rkt,*.rktl set filetype=scheme
 endif
 
@@ -59,11 +60,15 @@ set mouse=a		" Enable mouse usage (all modes)
 "endif
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+" automatically save on Ctrl-Z
 set autowrite
 " \= reformats the whole file
 nnoremap <Leader>= mzgg=G`z
 
+" don't suggest java compiled class files to open
 set wildignore=*.class
+
+" load plugins
 execute pathogen#infect()
 
 
