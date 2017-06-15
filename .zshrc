@@ -82,6 +82,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# I think I used to use this for fantasy stocks or something. 
 export DB_CONNECTION="pgsql"
 export DB_PORT="5432"
 
@@ -97,6 +99,7 @@ export SVN_EDITOR="vim"
 # This is for CS125. It lets me run junit tests faster
 alias junit="java -cp .:junit.jar junit.textui.TestRunner"
 
+# Allows a zshrc for things that shouldn't be synced between computers
 if [[ -f ~/.localzshrc ]] then 
     source ~/.localzshrc
 fi
