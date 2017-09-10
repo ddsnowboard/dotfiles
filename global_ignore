@@ -1,2 +1,5 @@
+# Python virtual environment files
 *venv/*
+
+# vim swap files 
 *.sw?
