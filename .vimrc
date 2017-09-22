@@ -87,3 +87,6 @@ set relativenumber
 " This lets me leave editing mode by pressing jk. If I actually need to write
 " jk, I can just wait for the timer to run out. 
 inoremap jk <ESC>
+
+" Turn on fancy javascript highlighting for all js files
+let g:jsx_ext_required = 0
