@@ -85,3 +85,6 @@ inoremap jk <ESC>
 
 " Turn on fancy javascript highlighting for all js files
 let g:jsx_ext_required = 0
+
+" For some reason the school computers have this on and it drives my crazy
+set nohlsearch
