@@ -18,6 +18,7 @@ runtime! debian.vim
 " line enables syntax highlighting by default.
 if has("syntax")
   syntax on
+  filetype plugin indent on
 endif
 
 " Color stuff
