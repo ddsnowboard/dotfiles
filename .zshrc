@@ -103,3 +103,5 @@ alias junit="java -cp .:junit.jar junit.textui.TestRunner"
 if [[ -f ~/.localzshrc ]] then 
     source ~/.localzshrc
 fi
+
+source ~/.cargo/env
