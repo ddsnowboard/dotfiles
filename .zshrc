@@ -105,3 +105,6 @@ if [[ -f ~/.localzshrc ]] then
 fi
 
 source ~/.cargo/env
+
+# Turn off terminal beep
+setopt NO_BEEP

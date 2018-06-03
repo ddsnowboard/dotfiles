@@ -94,3 +94,5 @@ set cindent
 
 " For some reason the school computers have this on and it drives my crazy
 set nohlsearch
+" Turn off terminal bell. Arch came with it and it's terrible
+set belloff=all
