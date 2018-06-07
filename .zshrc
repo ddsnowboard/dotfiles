@@ -96,9 +96,6 @@ export HEROKU_SSL_VERIFY=disable
 
 export SVN_EDITOR="vim"
 
-# This is for CS125. It lets me run junit tests faster
-alias junit="java -cp .:junit.jar junit.textui.TestRunner"
-
 # Allows a zshrc for things that shouldn't be synced between computers
 if [[ -f ~/.localzshrc ]] then 
     source ~/.localzshrc
@@ -108,3 +105,6 @@ source ~/.cargo/env
 
 # Turn off terminal beep
 setopt NO_BEEP
+
+# This should be the default
+alias open=xdg-open
