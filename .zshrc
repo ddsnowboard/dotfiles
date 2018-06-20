@@ -94,6 +94,7 @@ export HEROKU_SSL_VERIFY=disable
 
 
 
+export EDITOR="vim"
 export SVN_EDITOR="vim"
 
 # Allows a zshrc for things that shouldn't be synced between computers
