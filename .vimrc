@@ -96,3 +96,6 @@ set cindent
 set nohlsearch
 " Turn off terminal bell. Arch came with it and it's terrible
 set belloff=all
+
+" This just stopped working right. I have no idea why.
+set backspace=2
