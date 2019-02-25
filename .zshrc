@@ -109,6 +109,3 @@ setopt NO_BEEP
 
 # This should be the default
 alias open=xdg-open
-
-# For some reason they didn't set up the arch distribution of ghc to just work normally.
-alias ghc='ghc -dynamic'
