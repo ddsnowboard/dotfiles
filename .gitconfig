@@ -10,3 +10,5 @@
 	defaultToUpstream = 1
 [rebase]
 	instructionFormat = (%an <%ae>) %s
+[credential]
+	helper = cache
