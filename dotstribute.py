@@ -77,7 +77,7 @@ class Dot():
                 os.symlink(f, self.home_links[i])
 
             else:
-                print "skipping", f
+                print("skipping", f)
 
     def unlink(self, ask=False):
         """
@@ -98,7 +98,7 @@ class Dot():
                 os.unlink(f)
 
             else:
-                print "Does not exist:", f
+                print("Does not exist:", f)
 
     def preview(self, unlink_preview):
         """
@@ -109,10 +109,10 @@ class Dot():
 
         for i, f in enumerate(self.home_links):
             if unlink_preview:
-                print "* UNLINK %s \n\t<- %s" %(f, self.git_links[i])
+                print("* UNLINK %s \n\t<- %s" %(f, self.git_links[i]))
 
             else:
-                print "* LINK: %s \n\t-> %s" %(self.git_links[i], f)
+                print("* LINK: %s \n\t-> %s" %(self.git_links[i], f))
 
     def generate_dotignore(self, to_dir):
         """ Generate a .dotignore file at the specified location """
@@ -155,11 +155,11 @@ def main():
 
     # if the path isn't there, ask to use this dir
     elif len(args) == 1 and not os.path.exists(args[0]):
-        print "That directory does not exist"
-        print "Use the current working directory? (y/N)"
+        print("That directory does not exist")
+        print("Use the current working directory? (y/N)")
 
         if raw_input("> ").lower() != "y":
-            print "Now exiting"
+            print("Now exiting")
             return
 
     d = Dot(git_dir)
